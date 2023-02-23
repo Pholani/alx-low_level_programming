@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
  *nul - Multiplies two intergers
- *@y: The first number to multiply
- *@x: The second number to multiply with the first number
+ *@a: The first number to multiply
+ *@b: The second number to multiply with the first number
  *Return: The result between two integers x and y
  */
-int nul(int x, int y)
+int nul(int a, int b)
 {
-	return (x * y);
+	return (a * b);
 }
