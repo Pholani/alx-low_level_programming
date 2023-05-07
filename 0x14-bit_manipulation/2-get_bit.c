@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * get_bit - function that returns the value of a bit at a given index
- * @n: number to search
- * @index: index of the bit
- *
- * Return: value of the bit
+ * get_bit - the function returns the value of a bit at a given index
+ * @n:a number to search
+ * @index: an index of the bit
+ * Angazi ngizoshintsha ini enye
+ * Return: always value of the bit
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
