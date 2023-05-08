@@ -18,9 +18,9 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * check_elf - Checks if a file is an ELF file.
- * @e_ident: A pointer to an array containing the ELF magic numbers.
- * Description: If the file is not an ELF file - exit code 98.
+ * check_elf - bheka uma i file is an ELF file.
+ * @e_ident: ikhomba kwi array containing the ELF magic numbers.
+ * Description: uma i file is not an ELF file - exit code 98.
  */
 void check_elf(unsigned char *e_ident)
 {
@@ -40,9 +40,9 @@ void check_elf(unsigned char *e_ident)
 }
 
 /**
- * print_magic - Prints the magic numbers of an ELF header.
- * @e_ident: A pointer to an array containing the ELF magic numbers.
- * Description: Magic numbers are separated by spaces.
+ * print_magic - prints i magic numbers of an ELF header.
+ * @e_ident: ikhomba kwi array containing the ELF magic numbers.
+ * Description: Magic numbers ziya separated by spaces.
  */
 void print_magic(unsigned char *e_ident)
 {
@@ -62,8 +62,8 @@ void print_magic(unsigned char *e_ident)
 }
 
 /**
- * print_class - Prints the class of an ELF header.
- * @e_ident: A pointer to an array containing the ELF class.
+ * print_class - prints i class of an ELF header.
+ * @e_ident: ikhomba kwi array containing the ELF class.
  */
 void print_class(unsigned char *e_ident)
 {
@@ -86,8 +86,8 @@ void print_class(unsigned char *e_ident)
 }
 
 /**
- * print_data - Prints the data of an ELF header.
- * @e_ident: A pointer to an array containing the ELF class.
+ * print_data - prints i data of an ELF header.
+ * @e_ident: ikhomba kwi array containing the ELF class.
  */
 void print_data(unsigned char *e_ident)
 {
@@ -110,8 +110,8 @@ void print_data(unsigned char *e_ident)
 }
 
 /**
- *print_version - Prints the version of an ELF header.
- *@e_ident: A pointer to an array containing the ELF version.
+ *print_version - prints i version of an ELF header.
+ *@e_ident: ikhomba kwi array containing the ELF version.
  */
 void print_version(unsigned char *e_ident)
 {
@@ -130,8 +130,8 @@ void print_version(unsigned char *e_ident)
 }
 
 /**
- * print_osabi - Prints the OS/ABI of an ELF header.
- * @e_ident: A pointer to an array containing the ELF version.
+ * print_osabi - prints i OS/ABI of an ELF header.
+ * @e_ident: i khomba kwi array containing the ELF version.
  */
 void print_osabi(unsigned char *e_ident)
 {
@@ -175,8 +175,8 @@ void print_osabi(unsigned char *e_ident)
 }
 
 /**
- * print_abi - Prints the ABI version of an ELF header.
- * @e_ident: A pointer to an array containing the ELF ABI version.
+ * print_abi - prints i ABI version of an ELF header.
+ * @e_ident: ikhomba kwi array containing the ELF ABI version.
  */
 void print_abi(unsigned char *e_ident)
 {
@@ -185,9 +185,9 @@ void print_abi(unsigned char *e_ident)
 }
 
 /**
- * print_type - Prints the type of an ELF header.
- * @e_type: The ELF type.
- * @e_ident: A pointer to an array containing the ELF class.
+ * print_type - prints i type ye ELF header.
+ * @e_type: lena yi ELF type.
+ * @e_ident: this pointer to an array containing the ELF class.
  */
 void print_type(unsigned int e_type, unsigned char *e_ident)
 {
@@ -219,9 +219,9 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 }
 
 /**
- * print_entry - prints the entry point of an ELF header
- * @e_entry: for address of the ELF entry point
- * @e_ident: pointer to an array containing the ELF class
+ * print_entry - khomba kwi entry point of an ELF header
+ * @e_entry: for address ye ELF entry point
+ * @e_ident: khomba kwi array containing the ELF class
  */
 void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 {
@@ -242,9 +242,9 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 }
 
 /**
- * close_elf - closes an ELF file
- * @elf: the file descriptor of the ELF file
- * Description: if the file cannot be closed - exit code 98
+ * close_elf - vala i ELF file
+ * @elf: ifayela le descriptor ye ELF file
+ * Description: uma ifayela lingavuleki - exit code 98
  */
 void close_elf(int elf)
 {
@@ -258,10 +258,10 @@ void close_elf(int elf)
 
 /**
  * main - show information contained in the ELF header
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
- * Return: 0 always on success.
- * Description: function fails or file not an ELF - exit code 98
+ * @argc: Inombolo ye arguments supplied to the program.
+ * @argv: Lena yi array ye pointers kwi arguments.
+ * Return:buyisa u 0 uma iphumelele.
+ * Description: if the function fails or file not an ELF - exit code 98
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {

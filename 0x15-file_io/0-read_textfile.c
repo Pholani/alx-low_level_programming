@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * read_textfile-  reads file and prints to the POSIX
- * @filename: the one being read
- * @letters: how many number of letters to be read
- * Return: w- actual number of bytes read and printed
+ * read_textfile-This  reads file and prints the output to the POSIX
+ * @filename: this is the one being read
+ * @letters: ama letters amangakhi okuzomele afundwe
+ * Return: w-  number of bytes being read and printed
  *        0 when function fails or filename is NULL.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
